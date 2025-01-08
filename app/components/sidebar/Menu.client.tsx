@@ -222,11 +222,9 @@ export const Menu = () => {
           </DialogRoot>
         </div>
         <div className="flex items-center justify-between border-t border-bolt-elements-borderColor p-4">
-          <SettingsButton onClick={() => setIsSettingsOpen(true)} />
           <ThemeSwitch />
         </div>
       </div>
-      <SettingsWindow open={isSettingsOpen} onClose={() => setIsSettingsOpen(false)} />
     </motion.div>
   );
 };
