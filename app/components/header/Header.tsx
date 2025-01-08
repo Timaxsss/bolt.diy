@@ -40,7 +40,7 @@ export function Header() {
       {/* Social Links */}
       <div className="flex items-center gap-4 ml-auto">
         <a
-          href="https://twitter.com/nyla_ai"
+          href="https://x.com/NylAIgent"
           target="_blank"
           rel="noopener noreferrer"
           className="text-bolt-elements-textPrimary hover:text-accent transition-colors"
@@ -48,7 +48,7 @@ export function Header() {
           <div className="i-ph:twitter-logo text-xl" />
         </a>
         <a
-          href="https://docs.nyla.ai"
+          href="https://nylai-intelligent-coding-termina.gitbook.io/nylai-intelligent-coding-terminal"
           target="_blank"
           rel="noopener noreferrer"
           className="text-bolt-elements-textPrimary hover:text-accent transition-colors"
