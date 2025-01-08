@@ -327,7 +327,7 @@ export const BaseChat = React.forwardRef<HTMLDivElement, BaseChatProps>(
                   NYLAI, Your Coding AI Agent.
                 </h1>
                 <p className="text-md lg:text-xl mb-2 text-bolt-elements-textSecondary animate-fade-in animation-delay-200">
-                  CA: TBD
+                  CA: 8CmFVyEtQXarXtMbfwvfjCTBEYjSAZ78V1NuY3iVpump
                 </p>
                 <p className="text-sm lg:text-md text-bolt-elements-textSecondary animate-fade-in animation-delay-300">
                   Put your OWN API key of your choice, or try for free with open router and google gemini flash 2.0 experimental
