@@ -54,10 +54,14 @@ const inlineThemeCode = stripIndents`
 
 export const Head = createHead(() => (
   <>
-    <meta charSet="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <Meta />
-    <Links />
+    <head>
+      <meta charSet="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <meta name="description" content="NYLA - Your AI Agent for code. Bringing intelligence to your development workflow." />
+      <title>NYLA - Your AI Agent for code</title>
+      <Meta />
+      <Links />
+    </head>
     <script dangerouslySetInnerHTML={{ __html: inlineThemeCode }} />
   </>
 ));
