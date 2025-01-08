@@ -37,6 +37,25 @@ export function Header() {
           </ClientOnly>
         </>
       )}
+      {/* Social Links */}
+      <div className="flex items-center gap-4 ml-auto">
+        <a
+          href="https://twitter.com/nyla_ai"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-bolt-elements-textPrimary hover:text-accent transition-colors"
+        >
+          <div className="i-ph:twitter-logo text-xl" />
+        </a>
+        <a
+          href="https://docs.nyla.ai"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-bolt-elements-textPrimary hover:text-accent transition-colors"
+        >
+          <div className="i-ph:book-open text-xl" />
+        </a>
+      </div>
     </header>
   );
 }
