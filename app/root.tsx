@@ -16,7 +16,7 @@ import 'virtual:uno.css';
 export const links: LinksFunction = () => [
   {
     rel: 'icon',
-    href: '/logo.ico',
+    href: '/Ocyx-Logo-02.ico',
     type: 'image/x-icon',
   },
   { rel: 'stylesheet', href: reactToastifyStyles },
