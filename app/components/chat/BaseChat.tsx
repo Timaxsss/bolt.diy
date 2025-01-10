@@ -327,7 +327,7 @@ export const BaseChat = React.forwardRef<HTMLDivElement, BaseChatProps>(
                   OCYX, Your AI Coding Agent.
                 </h1>
                 <p className="text-md lg:text-xl mb-2 text-bolt-elements-textSecondary animate-fade-in animation-delay-200">
-                  CA: TBD
+                  CA: DRi3nSvccTH7jXUAExPxzb75ARGVZkbVxTpt6mA6pump
                 </p>
                 <p className="text-sm lg:text-md text-bolt-elements-textSecondary animate-fade-in animation-delay-300">
                   Put your OWN API key of your choice, or try for free with open router and google gemini flash 2.0 experimental
