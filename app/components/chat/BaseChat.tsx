@@ -324,10 +324,10 @@ export const BaseChat = React.forwardRef<HTMLDivElement, BaseChatProps>(
             {!chatStarted && (
               <div id="intro" className="mt-[16vh] max-w-chat mx-auto text-center px-4 lg:px-0">
                 <h1 className="text-3xl lg:text-6xl font-bold text-bolt-elements-textPrimary mb-4 animate-fade-in">
-                  OCYX, Your AI Coding Agent.
+                  ZOWLY, Your AI Coding Agent.
                 </h1>
                 <p className="text-md lg:text-xl mb-2 text-bolt-elements-textSecondary animate-fade-in animation-delay-200">
-                  CA: DRi3nSvccTH7jXUAExPxzb75ARGVZkbVxTpt6mA6pump
+                  CA: TBD
                 </p>
                 <p className="text-sm lg:text-md text-bolt-elements-textSecondary animate-fade-in animation-delay-300">
                   Put your OWN API key of your choice, or try for free with open router and google gemini flash 2.0 experimental
@@ -523,7 +523,7 @@ export const BaseChat = React.forwardRef<HTMLDivElement, BaseChatProps>(
                         minHeight: TEXTAREA_MIN_HEIGHT,
                         maxHeight: TEXTAREA_MAX_HEIGHT,
                       }}
-                      placeholder="Ask OCYX a TODO App, Snake game, Marketplace..."
+                      placeholder="Ask ZOWLY a TODO App, Snake game, Marketplace..."
                       translate="no"
                     />
                     <ClientOnly>
