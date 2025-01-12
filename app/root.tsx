@@ -16,7 +16,7 @@ import 'virtual:uno.css';
 export const links: LinksFunction = () => [
   {
     rel: 'icon',
-    href: '/Ocyx-Logo-02.ico',
+    href: '/Logo-Zowly-01.ico',
     type: 'image/x-icon',
   },
   { rel: 'stylesheet', href: reactToastifyStyles },
@@ -57,8 +57,8 @@ export const Head = createHead(() => (
     <head>
       <meta charSet="utf-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <meta name="description" content="NYLA - Your AI Agent for code. Bringing intelligence to your development workflow." />
-      <title>OCYX - Your AI Agent for code</title>
+      <meta name="description" content="ZOWLY - Your AI Agent for code. Bringing intelligence to your development workflow." />
+      <title>ZOWLY - Your AI Agent for code</title>
       <Meta />
       <Links />
     </head>
