@@ -6,7 +6,7 @@ import { Header } from '~/components/header/Header';
 import BackgroundRays from '~/components/ui/BackgroundRays';
 
 export const meta: MetaFunction = () => {
-  return [{ title: 'OCYX' }, { name: 'description', content: 'Talk with OCYX, Coding AI AGENT on PUMPFUN.' }];
+  return [{ title: 'ZOWLY' }, { name: 'description', content: 'Talk with ZOWLY, Coding AI AGENT on PUMPFUN.' }];
 };
 
 export const loader = () => json({});
