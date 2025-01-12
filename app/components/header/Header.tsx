@@ -40,7 +40,7 @@ export function Header() {
       {/* Social Links */}
       <div className="flex items-center gap-4 ml-auto">
         <a
-          href="https://x.com/OcyxCODING"
+          href="https://x.com/ZowlyCODE_SOL"
           target="_blank"
           rel="noopener noreferrer"
           className="text-bolt-elements-textPrimary hover:text-accent transition-colors"
