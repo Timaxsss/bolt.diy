@@ -48,7 +48,7 @@ export function Header() {
           <div className="i-ph:twitter-logo text-xl" />
         </a>
         <a
-          href="https://ocyx-intelligent-project-creator.gitbook.io/ocyx-intelligent-project-creator"
+          href="https://zowly-your-ai-coding-agent.gitbook.io/zowly-your-ai-website-builder."
           target="_blank"
           rel="noopener noreferrer"
           className="text-bolt-elements-textPrimary hover:text-accent transition-colors"
