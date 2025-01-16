@@ -16,7 +16,7 @@ import 'virtual:uno.css';
 export const links: LinksFunction = () => [
   {
     rel: 'icon',
-    href: '/Logo-Zowly-01.ico',
+    href: '/Logo-Raibbit-01.ico',
     type: 'image/x-icon',
   },
   { rel: 'stylesheet', href: reactToastifyStyles },
