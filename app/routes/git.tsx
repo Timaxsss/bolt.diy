@@ -7,7 +7,7 @@ import { Header } from '~/components/header/Header';
 import BackgroundRays from '~/components/ui/BackgroundRays';
 
 export const meta: MetaFunction = () => {
-  return [{ title: 'ZOWLY' }, { name: 'description', content: 'Talk with ZOWLY, an AI assistant.' }];
+  return [{ title: 'RAIBBIT' }, { name: 'description', content: 'Talk with RAIBBIT, an AI assistant.' }];
 };
 
 export async function loader(args: LoaderFunctionArgs) {
