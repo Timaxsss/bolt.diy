@@ -58,7 +58,7 @@ export const Head = createHead(() => (
       <meta charSet="utf-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <meta name="description" content="ZOWLY - Your AI Agent for code. Bringing intelligence to your development workflow." />
-      <title>ZOWLY - Your AI Agent for code</title>
+      <title>RAIBBIT - Your AI Agent for code</title>
       <Meta />
       <Links />
     </head>
