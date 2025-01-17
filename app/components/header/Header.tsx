@@ -40,7 +40,7 @@ export function Header() {
       {/* Social Links */}
       <div className="flex items-center gap-4 ml-auto">
         <a
-          href="https://x.com/ZowlyCODE_SOL"
+          href="https://x.com/RaibbitCODE_SOL"
           target="_blank"
           rel="noopener noreferrer"
           className="text-bolt-elements-textPrimary hover:text-accent transition-colors"
@@ -48,7 +48,7 @@ export function Header() {
           <div className="i-ph:twitter-logo text-xl" />
         </a>
         <a
-          href="https://zowly-your-ai-coding-agent.gitbook.io/zowly-your-ai-website-builder."
+          href="https://raibbit-your-ai-coding-agent-doc.gitbook.io/raibbit-your-ai-coding-agent-documentation"
           target="_blank"
           rel="noopener noreferrer"
           className="text-bolt-elements-textPrimary hover:text-accent transition-colors"
