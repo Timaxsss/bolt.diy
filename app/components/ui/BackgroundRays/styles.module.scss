@@ -12,16 +12,17 @@
   position: fixed;
   inset: 0;
   overflow: hidden;
+  animation: fadeIn 1.5s ease-out;
   pointer-events: none;
   z-index: 0;
 
   :global(spline-viewer) {
-    position: absolute;
     width: 100%;
     height: 100%;
+    position: absolute;
     top: 0;
     left: 0;
-    pointer-events: none;
+    z-index: -1;
   }
 
   :global(html[data-theme='dark']) & {
