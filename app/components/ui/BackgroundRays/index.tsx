@@ -1,16 +1,28 @@
-import styles from './styles.module.scss';
+import { useEffect } from 'react';
+
+declare global {
+  namespace JSX {
+    interface IntrinsicElements {
+      'spline-viewer': any;
+    }
+  }
+}
 
 const BackgroundRays = () => {
+  useEffect(() => {
+    const script = document.createElement('script');
+    script.type = 'module';
+    script.src = 'https://unpkg.com/@splinetool/viewer@1.9.59/build/spline-viewer.js';
+    document.head.appendChild(script);
+
+    return () => {
+      document.head.removeChild(script);
+    };
+  }, []);
+
   return (
-    <div className={`${styles.rayContainer} `}>
-      <div className={`${styles.lightRay} ${styles.ray1}`}></div>
-      <div className={`${styles.lightRay} ${styles.ray2}`}></div>
-      <div className={`${styles.lightRay} ${styles.ray3}`}></div>
-      <div className={`${styles.lightRay} ${styles.ray4}`}></div>
-      <div className={`${styles.lightRay} ${styles.ray5}`}></div>
-      <div className={`${styles.lightRay} ${styles.ray6}`}></div>
-      <div className={`${styles.lightRay} ${styles.ray7}`}></div>
-      <div className={`${styles.lightRay} ${styles.ray8}`}></div>
+    <div className="fixed inset-0 -z-10 w-full h-full">
+      <spline-viewer url="https://prod.spline.design/f-ksMRQyY1d9-InH/scene.splinecode"></spline-viewer>
     </div>
   );
 };
