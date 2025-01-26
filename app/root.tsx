@@ -36,14 +36,6 @@ export const links: LinksFunction = () => [
     rel: 'stylesheet',
     href: 'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap',
   },
-  {
-    rel: 'stylesheet',
-    href: 'https://cdn.jsdelivr.net/npm/@spline/spline-web@latest/dist/spline.css',
-  },
-  {
-    rel: 'script',
-    href: 'https://cdn.jsdelivr.net/npm/@spline/spline-web@latest/dist/spline.min.js',
-  },
 ];
 
 const inlineThemeCode = stripIndents`
@@ -66,18 +58,9 @@ export const Head = createHead(() => (
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <Meta />
     <Links />
-    <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.59/build/spline-viewer.js"></script>
     <script dangerouslySetInnerHTML={{ __html: inlineThemeCode }} />
   </>
 ));
-
-const SplineBackground = () => {
-  return (
-    <div className="fixed inset-0 w-full h-full -z-10">
-      <spline-viewer url="https://prod.spline.design/RDoqbU7hqvrikh41/scene.splinecode"></spline-viewer>
-    </div>
-  );
-};
 
 export function Layout({ children }: { children: React.ReactNode }) {
   const theme = useStore(themeStore);
@@ -88,7 +71,6 @@ export function Layout({ children }: { children: React.ReactNode }) {
 
   return (
     <>
-      <SplineBackground />
       {children}
       <ScrollRestoration />
       <Scripts />
