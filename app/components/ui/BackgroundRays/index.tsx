@@ -1,5 +1,4 @@
 import styles from './styles.module.scss';
-import Script from 'next/script';
 
 const BackgroundRays = () => {
   return (
