@@ -59,6 +59,17 @@ export const Head = createHead(() => (
     <Meta />
     <Links />
     <script dangerouslySetInnerHTML={{ __html: inlineThemeCode }} />
+    <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.59/build/spline-viewer.js"></script>
+    <style dangerouslySetInnerHTML={{ __html: `
+      spline-viewer {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+      }
+    ` }} />
   </>
 ));
 
@@ -71,6 +82,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
 
   return (
     <>
+      <spline-viewer url="https://prod.spline.design/RDoqbU7hqvrikh41/scene.splinecode"></spline-viewer>
       {children}
       <ScrollRestoration />
       <Scripts />
