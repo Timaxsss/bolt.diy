@@ -1,8 +1,10 @@
 .container {
   position: fixed;
   inset: 0;
-  z-index: -1;
+  z-index: 1;
   pointer-events: none;
+  opacity: 0.8;
+  mix-blend-mode: screen;
 
   :global(spline-viewer) {
     width: 100%;
