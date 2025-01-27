@@ -15,7 +15,7 @@ const BackgroundRays = () => {
 
   return (
     <div className={styles.container}>
-      <spline-viewer url="https://prod.spline.design/f-ksMRQyY1d9-InH/scene.splinecode"></spline-viewer>
+      <spline-viewer url="https://prod.spline.design/vemc3bZyefkMwOLI/scene.splinecode"></spline-viewer>
     </div>
   );
 };
