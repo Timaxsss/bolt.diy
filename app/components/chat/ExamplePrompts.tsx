@@ -1,11 +1,12 @@
 import React from 'react';
 
 const EXAMPLE_PROMPTS = [
-  { text: 'Build a todo app in React using Tailwind' },
-  { text: 'Build a simple blog using Astro' },
-  { text: 'Create a cookie consent form using Material UI' },
-  { text: 'Make a space invaders game' },
-  { text: 'Make a Tic Tac Toe game in html, css and js only' },
+  { text: 'Create an AI-powered DeFi portfolio analyzer with risk assessment' },
+  { text: 'Design a beginner-friendly DEX interface with AI price predictions' },
+  { text: 'Build a yield farming optimizer with AI-suggested strategies' },
+  { text: 'Create a DeFi wallet interface with AI security monitoring' },
+  { text: 'Design a liquidity pool dashboard with AI risk analysis' },
+  { text: 'Build a token swap interface with AI-powered price impact warnings' },
 ];
 
 export function ExamplePrompts(sendMessage?: { (event: React.UIEvent, messageInput?: string): void | undefined }) {
