@@ -302,7 +302,7 @@ export const BaseChat = React.forwardRef<HTMLDivElement, BaseChatProps>(
                   Start your project here
                 </p>
                 <p className="text-md lg:text-xl mb-8 text-bolt-elements-textSecondary animate-fade-in animation-delay-200">
-                  CA: TBD
+                  CA: BLYRJYsMHnHZdaBgxpiMTutVsCYk8qC6VqQTqQS2pump
                 </p>
               </div>
             )}
