@@ -221,9 +221,6 @@ export const Menu = () => {
             </Dialog>
           </DialogRoot>
         </div>
-        <div className="flex items-center justify-between border-t border-bolt-elements-borderColor p-4">
-          <ThemeSwitch />
-        </div>
       </div>
     </motion.div>
   );
