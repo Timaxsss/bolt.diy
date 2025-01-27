@@ -22,6 +22,14 @@ export function Header() {
           <img src="/flowlabs-logo-site-01.png" alt="logo" className="w-[90px] inline-block dark:hidden" />
           <img src="/flowlabs-logo-site-01.png" alt="logo" className="w-[90px] inline-block hidden dark:block" />
         </a>
+        <a 
+          href="https://x.com" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className="flex items-center text-white hover:text-gray-300 transition-colors"
+        >
+          <div className="i-ph:twitter-logo-fill text-xl" />
+        </a>
       </div>
       {chat.started && ( // Display ChatDescription and HeaderActionButtons only when the chat has started.
         <>
