@@ -23,7 +23,7 @@ export function Header() {
           <img src="/flowlabs-logo-site-01.png" alt="logo" className="w-[90px] inline-block hidden dark:block" />
         </a>
         <a 
-          href="https://x.com" 
+          href="https://x.com/FlowLabsAI" 
           target="_blank" 
           rel="noopener noreferrer" 
           className="flex items-center text-white hover:text-gray-300 transition-colors"
